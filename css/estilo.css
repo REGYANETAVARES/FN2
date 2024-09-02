@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #669ccb;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header img {
+    width: 150px; /* Ajuste do tamanho da logo */
+    margin-left: 20px; /* Ajuste de margem */
+}
+
+.social {
+    margin-right: 20px;
+}
+
+.social a {
+    font-size: 32pt;
+    color: #ffc107;
+    margin-left: 10px;
+}
+
+.social a:hover {
+    color: #6e3e0d;
+}
+
+nav {
+    background: #ffc107;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav li {
+    width: 200px; /* Ajuste da largura dos itens do menu */
+    margin: 5px;
+    padding: 10px; /* Ajuste do padding */
+    background-color: #000000;
+    color: #ffc107;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16pt; /* Ajuste do tamanho da fonte */
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+nav li:hover {
+    background-color: #6e3e0d;
+}
+
+.banner {
+    text-align: center;
+}
+
+.titulo {
+    color: #ffc107;
+    text-align: center;
+    font-size: 28pt;
+}
+
+.grade {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box {
+    background: #ffc107;
+    width: 22%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box h3 {
+    margin-top: 15px;
+    font-size: 18pt;
+    color: #000;
+}
+
+.sobre {
+    display: flex;
+    padding: 40px 20px;
+}
+
+.img-sobre {
+    width: 50%;
+    padding: 30px;
+}
+
+.img-sobre img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto-sobre {
+    width: 50%;
+    color: #ffc107;
+    padding: 40px;
+}
+
+.texto-sobre h1 {
+    font-size: 32pt;
+}
+
+.texto-sobre p {
+    font-size: 16pt;
+    text-align: justify;
+}
+
+.info {
+    text-align: center;
+    color: #000000;
+    background: #ffc107;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.social-footer a {
+    font-size: 32pt;
+    color: #000000;
+    margin-left: 10px;
+}
